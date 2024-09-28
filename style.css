@@ -1,0 +1,331 @@
+body {
+  background-color: black;
+}
+
+.containerf {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 7rem;
+}
+.div1 {
+  background-color: rgb(117, 32, 124);
+  height: 200px;
+  width: 200px;
+  color: rgb(206, 28, 28);
+  text-align: center;
+}
+.div2 {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  color: chartreuse;
+  /* border-radius: 2px solid red; */
+}
+.div3 {
+  background-color: blueviolet;
+  height: 200px;
+  width: 200px;
+  color: rgb(236, 49, 127);
+  text-align: center;
+}
+.div4 {
+  background-color: maroon;
+  height: 200px;
+  width: 200px;
+  color: saddlebrown;
+  align-items: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  border-radius: 8rem;
+}
+.containery {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  margin-top: 20px;
+}
+.wall {
+  margin-left: 400px;
+  width: 800px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  /* border: 3px solid red; */
+  justify-content: space-around;
+  gap: 1rem;
+  justify-content: flex-start;
+  /* border: 4px solid red; */
+}
+/* h1 {
+  color: white;
+  border-radius: 2rem;
+  background-color: rgb(134, 42, 143);
+  padding: 10px;
+} */
+/* h2 {
+  color: red;
+  display: flex;
+  justify-content: end;
+  justify-content: space-around;
+  background-image: linear-gradient(130deg, yellow, black, purple);
+  border-radius: 6rem;
+} */
+/* img {
+  border-radius: 8rem;
+} */
+h3 {
+  color: white;
+  display: flex;
+  align-self: flex-start;
+  margin: 20px;
+}
+/* .div2 {
+  border: 2px solid red;
+  border-radius: 5rem;
+} */
+h3 {
+  color: rgb(49, 24, 4);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  float: left;
+  border-radius: 6rem;
+  /* background-color: rgb(27, 43, 117); */
+  padding: 5px;
+  background-image: linear-gradient(135deg, blue, red, green, yellow);
+  text-transform: uppercase;
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  float: right;
+  color: rgb(93, 190, 93);
+  border-radius: 3rem;
+  /* border: 3px solid red; */
+  font-size: 14px;
+  padding: 8px;
+  background-color: rgb(110, 226, 43);
+  text-transform: uppercase;
+  margin: 10px;
+  background-image: linear-gradient(135deg, green, red, black, yellow);
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+}
+h1:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+  /* background-color: blue; */
+  margin-bottom: 50px;
+  border-radius: 6rem;
+  padding: 10px;
+  background-image: linear-gradient(130deg, yellow, black, purple);
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.navbar,
+a {
+  color: red;
+  text-decoration: none;
+  font-family: "Ingrid Darling", system-ui;
+}
+p {
+  color: white;
+  font-size: 14px;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  text-align: justify;
+}
+.para1 {
+  background-image: linear-gradient(
+    90deg,
+    red,
+    black,
+    blue,
+    rgb(113, 202, 40),
+    yellow
+  );
+  border-radius: 6rem;
+}
+.para1,
+p {
+  color: rgb(160, 219, 20);
+  text-align: center;
+  font-size: 16px;
+}
+button {
+  background-color: brown;
+  color: white;
+  border-radius: 6rem;
+  background-image: linear-gradient(
+    50deg,
+    blue,
+    yellow,
+    black,
+    purple,
+    red,
+    green
+  );
+  text-align: center;
+  margin-left: 200px;
+  font-size: 20px;
+  color: yellow;
+}
+button:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+footer {
+  border-radius: 6rem;
+  background-image: linear-gradient(43deg, brown, darkorange, lavender, purple);
+}
+.image1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.new1 {
+  font-size: 12px;
+  margin-top: 80px;
+  background-image: linear-gradient(
+    90deg,
+    black,
+    pink,
+    maroon,
+    green,
+    red,
+    darkblue
+  );
+  color: white;
+  font-family: "Teko", sans-serif;
+  cursor: pointer;
+}
+.new1:hover {
+  transform: scale(130%) rotate(-5deg);
+}
+
+.pride {
+  font-size: 40px;
+  color: red;
+}
+.containerv {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 15px;
+}
+.no1 {
+  height: 200px;
+  width: 200px;
+  background-image: linear-gradient(
+    40deg,
+    orange,
+    black,
+    white,
+    maroon,
+    purple
+  );
+}
+/* /* .no2 {
+  background-image: linear-gradient(42deg, black, yellow, blue, red);
+  padding-top: 20px; */
+*/ .no2 {
+  height: 200px;
+  width: 200px;
+  background-image: linear-gradient(
+    40deg,
+    orange,
+    black,
+    white,
+    maroon,
+    purple
+  );
+}
+/* .no1,
+img {
+  padding-bottom: 20px;
+} */
+.no3 {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  background-image: linear-gradient(
+    40deg,
+    orange,
+    black,
+    white,
+    maroon,
+    purple
+  );
+}
+.li,
+h4 {
+  border-radius: 3rem;
+  background-image: linear-gradient(40deg, blue, yellow, purple, red, pink);
+  font-size: 18px;
+  font-family: "Lobster", sans-serif;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+}
+li,
+h4:hover {
+  transform: scale(130%) rotate(-5deg);
+}
+
+ol,
+li {
+  border-radius: 2rem;
+  background-image: linear-gradient(
+    50deg,
+    green,
+    red,
+    purple,
+    yellow,
+    blue,
+    blueviolet
+  );
+}
+.copy {
+  background-image: linear-gradient(
+    100deg,
+    red,
+    black,
+    darkorange,
+    rgb(22, 0, 100)
+  );
+  height: 200px;
+  width: 100px;
+  text-transform: uppercase;
+  line-height: 15px;
+  color: rgb(78, 207, 27);
+  padding: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 2rem;
+  /* text-align: justify; */
+  font-family: "Rubik Marker Hatch", system-ui;
+}
+.copy:hover {
+  transform: scale(130%) rotate(-5deg);
+}
+.last {
+  background-color: crimson;
+  background-image: linear-gradient(
+    100deg,
+    red,
+    black,
+    darkorange,
+    rgb(22, 0, 100)
+  );
+}
